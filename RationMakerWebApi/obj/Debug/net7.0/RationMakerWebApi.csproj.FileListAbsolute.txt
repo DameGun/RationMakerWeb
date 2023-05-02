@@ -1,0 +1,834 @@
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/appsettings.Development.json
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/appsettings.json
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/RationMakerWebApi
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/RationMakerWebApi.deps.json
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/RationMakerWebApi.runtimeconfig.json
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/RationMakerWebApi.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/RationMakerWebApi.pdb
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Humanizer.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.AspNetCore.Razor.Language.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.Build.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.Build.Framework.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.CodeAnalysis.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.CodeAnalysis.CSharp.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.CodeAnalysis.CSharp.Features.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.CodeAnalysis.Elfie.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.CodeAnalysis.Features.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.CodeAnalysis.Razor.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.CodeAnalysis.Scripting.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.CodeAnalysis.VisualBasic.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.CodeAnalysis.VisualBasic.Features.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.CodeAnalysis.Workspaces.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.DiaSymReader.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.DotNet.Scaffolding.Shared.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.Extensions.Caching.Abstractions.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.Extensions.Caching.Memory.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.Extensions.DependencyInjection.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.Extensions.Logging.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.Extensions.Options.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.Extensions.Primitives.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.NET.StringTools.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.OpenApi.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/dotnet-aspnet-codegenerator-design.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Mono.TextTemplating.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Newtonsoft.Json.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Npgsql.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/NuGet.Common.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/NuGet.Configuration.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/NuGet.DependencyResolver.Core.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/NuGet.Frameworks.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/NuGet.LibraryModel.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/NuGet.Packaging.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/NuGet.ProjectModel.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/NuGet.Protocol.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/NuGet.Versioning.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/System.CodeDom.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/System.Composition.AttributedModel.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/System.Composition.Convention.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/System.Composition.Hosting.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/System.Composition.Runtime.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/System.Composition.TypedParts.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/System.Drawing.Common.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/System.Reflection.MetadataLoadContext.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/System.Security.Permissions.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/System.Text.Encodings.Web.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/System.Text.Json.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/System.Windows.Extensions.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/runtimes/browser/lib/net7.0/System.Text.Encodings.Web.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/obj/Debug/net7.0/RationMakerWebApi.csproj.AssemblyReference.cache
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/obj/Debug/net7.0/RationMakerWebApi.GeneratedMSBuildEditorConfig.editorconfig
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/obj/Debug/net7.0/RationMakerWebApi.AssemblyInfoInputs.cache
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/obj/Debug/net7.0/RationMakerWebApi.AssemblyInfo.cs
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/obj/Debug/net7.0/RationMakerWebApi.csproj.CoreCompileInputs.cache
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/obj/Debug/net7.0/RationMakerWebApi.MvcApplicationPartsAssemblyInfo.cs
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/obj/Debug/net7.0/RationMakerWebApi.MvcApplicationPartsAssemblyInfo.cache
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/obj/Debug/net7.0/staticwebassets/msbuild.RationMakerWebApi.Microsoft.AspNetCore.StaticWebAssets.props
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/obj/Debug/net7.0/staticwebassets/msbuild.build.RationMakerWebApi.props
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.RationMakerWebApi.props
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.RationMakerWebApi.props
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/obj/Debug/net7.0/staticwebassets.pack.json
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/obj/Debug/net7.0/staticwebassets.build.json
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/obj/Debug/net7.0/staticwebassets.development.json
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/obj/Debug/net7.0/scopedcss/bundle/RationMakerWebApi.styles.css
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/obj/Debug/net7.0/RationMakerWebApi.csproj.CopyComplete
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/obj/Debug/net7.0/RationMakerWebApi.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/obj/Debug/net7.0/refint/RationMakerWebApi.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/obj/Debug/net7.0/RationMakerWebApi.pdb
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/obj/Debug/net7.0/RationMakerWebApi.genruntimeconfig.cache
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/obj/Debug/net7.0/ref/RationMakerWebApi.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/System.Web.Cors.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/System.Net.Http.Formatting.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/System.Web.Http.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/System.Web.Http.Cors.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/Newtonsoft.Json.Bson.dll
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/clientside/package-lock.json
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/clientside/package.json
+/home/prymak/RiderProjects/RationMakerWeb/RationMakerWebApi/bin/Debug/net7.0/clientside/public/manifest.json
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\appsettings.Development.json
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\appsettings.json
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\clientside\package-lock.json
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\clientside\package.json
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\clientside\public\manifest.json
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\RationMakerWebApi.exe
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\RationMakerWebApi.deps.json
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\RationMakerWebApi.runtimeconfig.json
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\RationMakerWebApi.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\RationMakerWebApi.pdb
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Humanizer.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.Web.Cors.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.Net.Http.Formatting.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.Web.Http.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.Web.Http.Cors.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.Build.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.Build.Framework.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.CodeAnalysis.Elfie.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.CodeAnalysis.Features.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.DiaSymReader.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.Extensions.Caching.Memory.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.NET.StringTools.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\dotnet-aspnet-codegenerator-design.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Npgsql.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\NuGet.Common.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\NuGet.Configuration.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\NuGet.DependencyResolver.Core.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\NuGet.Frameworks.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\NuGet.LibraryModel.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\NuGet.Packaging.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\NuGet.ProjectModel.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\NuGet.Protocol.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\NuGet.Versioning.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.CodeDom.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.Composition.AttributedModel.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.Composition.Convention.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.Composition.Hosting.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.Composition.Runtime.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.Composition.TypedParts.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.Reflection.MetadataLoadContext.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.Text.Encodings.Web.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.Text.Json.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\runtimes\browser\lib\net7.0\System.Text.Encodings.Web.dll
+C:\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\RationMakerWebApi.csproj.AssemblyReference.cache
+C:\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\RationMakerWebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\RationMakerWebApi.AssemblyInfoInputs.cache
+C:\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\RationMakerWebApi.AssemblyInfo.cs
+C:\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\RationMakerWebApi.csproj.CoreCompileInputs.cache
+C:\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\RationMakerWebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\RationMakerWebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\staticwebassets\msbuild.RationMakerWebApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.RationMakerWebApi.props
+C:\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.RationMakerWebApi.props
+C:\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.RationMakerWebApi.props
+C:\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\staticwebassets.build.json
+C:\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\staticwebassets.development.json
+C:\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\scopedcss\bundle\RationMakerWebApi.styles.css
+C:\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\RationMakerWebApi.csproj.CopyComplete
+C:\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\RationMakerWebApi.dll
+C:\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\refint\RationMakerWebApi.dll
+C:\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\RationMakerWebApi.pdb
+C:\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\RationMakerWebApi.genruntimeconfig.cache
+C:\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\ref\RationMakerWebApi.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\appsettings.json
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\clientside\public\manifest.json
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\clientside\package-lock.json
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\clientside\package.json
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\RationMakerWebApi.exe
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\RationMakerWebApi.deps.json
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\RationMakerWebApi.runtimeconfig.json
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\RationMakerWebApi.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\RationMakerWebApi.pdb
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Humanizer.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.Web.Cors.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.Net.Http.Formatting.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.Web.Http.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.Web.Http.Cors.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.Build.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.Build.Framework.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.CodeAnalysis.Elfie.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.CodeAnalysis.Features.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.DiaSymReader.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.NET.StringTools.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\NuGet.Common.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\NuGet.Configuration.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\NuGet.DependencyResolver.Core.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\NuGet.Frameworks.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\NuGet.LibraryModel.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\NuGet.Packaging.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\NuGet.ProjectModel.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\NuGet.Protocol.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\NuGet.Versioning.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.Composition.AttributedModel.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.Composition.Convention.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.Composition.Hosting.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.Composition.Runtime.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.Composition.TypedParts.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.Reflection.MetadataLoadContext.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\RationMakerWebApi.csproj.AssemblyReference.cache
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\RationMakerWebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\RationMakerWebApi.AssemblyInfoInputs.cache
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\RationMakerWebApi.AssemblyInfo.cs
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\RationMakerWebApi.csproj.CoreCompileInputs.cache
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\RationMakerWebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\RationMakerWebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\staticwebassets\msbuild.RationMakerWebApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.RationMakerWebApi.props
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.RationMakerWebApi.props
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.RationMakerWebApi.props
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\scopedcss\bundle\RationMakerWebApi.styles.css
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\RationMakerWebApi.csproj.CopyComplete
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\RationMakerWebApi.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\refint\RationMakerWebApi.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\RationMakerWebApi.pdb
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\RationMakerWebApi.genruntimeconfig.cache
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\ref\RationMakerWebApi.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\dameg\source\repos\CSharp Sem4\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll

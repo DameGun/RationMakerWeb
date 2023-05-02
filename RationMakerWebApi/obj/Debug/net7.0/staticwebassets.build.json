@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "qiiPnOPzGVFhDd7moOiTEP1xgwhIWRv/nuU3fc/wqfY=",
+  "Source": "RationMakerWebApi",
+  "BasePath": "_content/RationMakerWebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
