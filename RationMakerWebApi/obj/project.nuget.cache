@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PfQkUkdrQggysvS4ZtWNYaz/vHYBy4GOpeASboScFVoGkbJT6CsyMeELdCyrSrzK8/aC6Ifjf3tzyq+9E34T6w==",
+  "dgSpecHash": "vNhWC8fAvd2JzBI9l+npLdGWVTiq3eo/fC5b47FD556EzOdkK6TfRc9FxDjUgV2dUtYaV3y+U7XGimPCt414hA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dameg\\source\\repos\\CSharp Sem4\\RationMakerWeb\\RationMakerWebApi\\RationMakerWebApi.csproj",
+  "projectFilePath": "C:\\Users\\dameg\\source\\repos\\RationMakerWeb\\RationMakerWebApi\\RationMakerWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dameg\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\dameg\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

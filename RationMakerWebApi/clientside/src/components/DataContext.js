@@ -1,4 +1,4 @@
-import { createContext, useContext, useReducer, useState } from "react";
+import { createContext, useContext, useReducer } from "react";
 
 const ProductsContext = createContext(null);
 
@@ -6,14 +6,34 @@ const CategoriesContext = createContext(null);
 
 const ProductsDispatchContext = createContext(null);
 
+const FilteredProductsContext = createContext(null);
+
 export function ProductsProvider({ initialProducts, categories, children }) {
-  const [products, dispatch] = useReducer(productsReducer, initialProducts);
+  const [state, dispatch] = useReducer(productsReducer, {
+    products: initialProducts,
+    filteredProducts: initialProducts,
+    selectedCategory: "",
+  });
+
+  function filterProducts(category) {
+    let filteredProducts = [];
+    if (category) {
+      filteredProducts = state.products.filter(
+        (product) => product.category.name === category
+      );
+    } else filteredProducts = initialProducts;
+
+    dispatch({ type: "SET_FILTERED_PRODUCTS", data: filteredProducts });
+    dispatch({ type: "SET_CATEGORY", data: category });
+  }
 
   return (
-    <ProductsContext.Provider value={products}>
+    <ProductsContext.Provider value={state.products}>
       <CategoriesContext.Provider value={categories}>
         <ProductsDispatchContext.Provider value={dispatch}>
-          {children}
+          <FilteredProductsContext.Provider value={{ state, filterProducts }}>
+            {children}
+          </FilteredProductsContext.Provider>
         </ProductsDispatchContext.Provider>
       </CategoriesContext.Provider>
     </ProductsContext.Provider>
@@ -28,58 +48,39 @@ export function useCategories() {
   return useContext(CategoriesContext);
 }
 
+export function useFilteredProducts() {
+  return useContext(FilteredProductsContext);
+}
+
 export function useProductsDispatch() {
   return useContext(ProductsDispatchContext);
 }
 
-// const handleSearch = (products, searchTerm) => {
-//     return products.filter(
-//         (product) =>
-//             (!selectedCategory || product.category.name.toLowerCase() === selectedCategory.toLowerCase())
-//             &&
-//             product.name.toLowerCase().includes(searchTerm.toLowerCase())
-//     )
-// };
-
-// const handleCategorySelect = (products, category) => {
-//     selectedCategory = category;
-
-//     return products.filter(
-//         (product) =>
-//             !category || product.category.name.toLowerCase() === category.toLowerCase()
-//     )
-// };
-
-function productsReducer(products, action) {
+function productsReducer(state, action) {
   switch (action.type) {
-    case "deleted": {
-      return products.filter((product) => product.id !== action.id);
+    case "DELETE_PRODUCT": {
+      return {
+        ...state,
+        products: state.products.filter((product) => product.id !== action.id),
+        filteredProducts: state.products,
+      };
     }
-    // case "inCategory": {
-    //   return handleCategorySelect(products, action.category);
-    // }
-    /*case 'added': {
-            return fetch('product', {
-                "method": "POST",
-                "headers": { "Content-Type": "application/json" },
-                "body": JSON.stringify({
-                    name: action.name,
-                    gramms: action.gramms,
-                    protein: action.protein,
-                    fats: action.fats,
-                    carbs: action.carbs,
-                    calories: action.calories,
-                    categoryId: action.categoryId
-                })
-            })
-                .then((response) => response.ok)
-                .then((response) => {
-                    response
-                        ? this.setState({actionStatus: true})
-                        : console.log("Something happened!!!")
-                })
-                .catch(err => console.log(err));
-        }*/
+    case "SET_FILTERED_PRODUCTS": {
+      return { ...state, filteredProducts: action.data };
+    }
+    case "SET_CATEGORY": {
+      return { ...state, selectedCategory: action.data };
+    }
+    case "SEARCH_PRODUCTS": {
+      const regex = new RegExp(action.data, "i");
+      const filteredProductsSearch = state.products.filter(
+        (product) =>
+          (!state.selectedCategory ||
+            product.category.name === state.selectedCategory) &&
+          regex.test(product.name)
+      );
+      return { ...state, filteredProducts: filteredProductsSearch };
+    }
     default: {
       throw Error("Unknown action: " + action.type);
     }

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import {
   Button,
   Modal,
@@ -9,38 +9,51 @@ import {
 } from "reactstrap";
 import { useProductsDispatch } from "../DataContext";
 import { deleteProduct } from "../../service/ApiCalls";
-import useApiCallOnMount from "../../service/useApiCallOnMount";
 
 function ModalDelete(args) {
   const [modal, setModal] = useState(false);
   const dispatch = useProductsDispatch();
-  const [deleteStatus, setDeleteStatus] = useState(null);
+  const [error, setError] = useState(null);
+  const [deleteStatus, setDeleteStatus] = useState("");
   const [alert, setAlert] = useState(true);
-  const [alertDismiss, setAlertDismiss] = useState("");
 
-  const toggle = () => setModal(!modal);
+  function toggle() {
+    setDeleteStatus("");
+    setError(null);
+    setModal(!modal);
+  }
 
-  const alertToggle = (status) => {
+  function alertToggle() {
     setAlert(!alert);
-    setAlertDismiss(status);
-  };
+    toggle();
+    dispatch({
+      type: "DELETE_PRODUCT",
+      id: args.product.id,
+    });
+  }
 
-  useEffect(() => {
-    if (alertDismiss === "deleted") {
-      dispatch({
-        type: "deleted",
-        id: args.product.id,
-      });
+  if (deleteStatus === "success") {
+    return (
+      <Modal isOpen={alert} toggle={alertToggle}>
+        <ModalBody>
+          <Alert isOpen={alert} toggle={alertToggle}>
+            {args.product.name} successfully deleted!
+          </Alert>
+        </ModalBody>
+      </Modal>
+    );
+  }
+
+  async function handleDelete() {
+    setDeleteStatus("submitting");
+    try {
+      await submitForm(args.product.id);
+      setDeleteStatus("success");
+    } catch (err) {
+      setDeleteStatus("error");
+      setError(err);
     }
-  }, [alertDismiss]);
-
-  const handleDelete = () => {
-    deleteProduct(args.product.id)
-      .then((response) => response.ok)
-      .then((status) => {
-        setDeleteStatus(status);
-      });
-  };
+  }
 
   return (
     <div>
@@ -51,27 +64,14 @@ function ModalDelete(args) {
         <ModalHeader toggle={toggle}>Delete item</ModalHeader>
         <ModalBody>
           Are you sure you want to delete "{args.product.name}"?
-          {deleteStatus ? (
-            <Alert isOpen={alert} toggle={() => alertToggle("deleted")}>
-              {args.product.name} successfully deleted!
-            </Alert>
-          ) : deleteStatus === false ? (
-            <Alert
-              color="warning"
-              isOpen={alert}
-              toggle={() => alertToggle("errored")}
-            >
+          {error != null && (
+            <Alert color="warning" isOpen={true}>
               Error. Cant delete this item
             </Alert>
-          ) : undefined}
+          )}
         </ModalBody>
         <ModalFooter>
-          <Button
-            color="danger"
-            onClick={() => {
-              handleDelete();
-            }}
-          >
+          <Button color="danger" onClick={handleDelete}>
             Delete
           </Button>
           <Button color="secondary" onClick={toggle}>
@@ -84,3 +84,14 @@ function ModalDelete(args) {
 }
 
 export default ModalDelete;
+
+async function submitForm(id) {
+  return new Promise(async (resolve, reject) => {
+    let shouldError = await deleteProduct(id);
+    if (!shouldError) {
+      reject(new Error("Something went wrong"));
+    } else {
+      resolve();
+    }
+  });
+}

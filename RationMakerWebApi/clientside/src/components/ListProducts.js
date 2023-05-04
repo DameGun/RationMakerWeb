@@ -1,11 +1,11 @@
 import { Container, Table } from "reactstrap";
 import CreateUpdateActions from "./CreateUpdateActions";
 import ModalDelete from "./modals/ModalDelete";
-import React, { useEffect } from "react";
-import { useProducts } from "./DataContext";
+import React from "react";
+import { useFilteredProducts } from "./DataContext";
 
-export default function ListProducts(categories) {
-  const products = useProducts();
+export default function ListProducts() {
+  const context = useFilteredProducts();
   function renderProductsData(results) {
     return (
       <Table striped bordered hover>
@@ -26,7 +26,7 @@ export default function ListProducts(categories) {
     );
   }
 
-  const results = products.map((product) => (
+  const results = context.state.filteredProducts.map((product) => (
     <tr key={product.id}>
       <td>{product.name}</td>
       <td>{product.gramms}</td>

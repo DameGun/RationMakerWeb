@@ -11220,11 +11220,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dameg\\source\\repos\\CSharp Sem4\\RationMakerWeb\\RationMakerWebApi\\RationMakerWebApi.csproj",
+      "projectUniqueName": "C:\\Users\\dameg\\source\\repos\\RationMakerWeb\\RationMakerWebApi\\RationMakerWebApi.csproj",
       "projectName": "RationMakerWebApi",
-      "projectPath": "C:\\Users\\dameg\\source\\repos\\CSharp Sem4\\RationMakerWeb\\RationMakerWebApi\\RationMakerWebApi.csproj",
+      "projectPath": "C:\\Users\\dameg\\source\\repos\\RationMakerWeb\\RationMakerWebApi\\RationMakerWebApi.csproj",
       "packagesPath": "C:\\Users\\dameg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dameg\\source\\repos\\CSharp Sem4\\RationMakerWeb\\RationMakerWebApi\\obj\\",
+      "outputPath": "C:\\Users\\dameg\\source\\repos\\RationMakerWeb\\RationMakerWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dameg\\AppData\\Roaming\\NuGet\\NuGet.Config",

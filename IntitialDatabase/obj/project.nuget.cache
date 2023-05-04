@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/ePqVIlMCONnxEB8VbL9zfm0Q4BYLX8XuqWDOMw0pe2AUtGdHgLiYRVdUoyi5Tr38An3NwLU8LupbROBtu/gwQ==",
+  "dgSpecHash": "ITquOwxEX1ZBSr5HOD4UdMwWcVdFKwqE7McCaKL0S6l5ZoA3Wg3V/FOYz0bDlypIkZIgzq/cU5Plax61SHkChg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dameg\\source\\repos\\CSharp Sem4\\RationMakerWeb\\IntitialDatabase\\IntitialDatabase.csproj",
+  "projectFilePath": "C:\\Users\\dameg\\source\\repos\\RationMakerWeb\\IntitialDatabase\\IntitialDatabase.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dameg\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\dameg\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

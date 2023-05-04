@@ -1,9 +1,11 @@
 using System.Text.Json.Serialization;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using RationMakerWebApi.DataLayer;
 using RationMakerWebApi.DataLayer.Interfaces;
 using RationMakerWebApi.DataLayer.Services;
 using RationMakerWebApi.Miscellaneous;
+using static System.Net.Mime.MediaTypeNames;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,7 +23,9 @@ builder.Services.AddCors(options =>
 	options.AddPolicy(name: MyAllowSpecificOrigins,
 					  policy =>
 					  {
-						  policy.WithOrigins("http://localhost:3000"); // add the allowed origins  
+						  policy.WithOrigins("http://localhost:3000")
+						  .AllowAnyHeader()
+						  .AllowAnyMethod();
 					  });
 });
 
@@ -58,7 +62,6 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.UseCors(MyAllowSpecificOrigins);

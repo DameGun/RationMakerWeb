@@ -1,33 +1,13 @@
 import React from "react";
 import { ButtonGroup, Col, Container, Row } from "reactstrap";
 import { getCategories, getProducts } from "../service/ApiCalls";
-import useApiCallOnMount from "../service/useApiCallOnMount";
+import { useApiCallOnMount } from "../service/useApiCallOnMount";
 import ApiStateHandler from "../service/ApiStateHandler";
 import SearchBar from "../components/SearchBar";
 import CategoryButtons from "../components/CategoryButtons";
 import ListProducts from "../components/ListProducts";
 import { ProductsProvider } from "../components/DataContext";
-
-/*const handleSearch = (searchTerm) => {
-    setFilteredProducts(
-        products.filter(
-            (product) =>
-                (!selectedCategory || product.category.name.toLowerCase() === selectedCategory.toLowerCase()) 
-                &&
-                product.name.toLowerCase().includes(searchTerm.toLowerCase())
-        )
-    );
-};
-
-const handleCategorySelect = (category) => {
-    setSelectedCategory(category);
-    setFilteredProducts(
-        products.filter(
-            (product) =>
-                !category || product.category.name.toLowerCase() === category.toLowerCase()
-        )
-    );
-};*/
+import { CreateProduct } from "../components/CRUD";
 
 export default function HomePage() {
   const [loadingProducts, products, errorProducts] =
@@ -43,6 +23,7 @@ export default function HomePage() {
             <Row>
               <SearchBar />
               <Col lg={2} className="my-3">
+                <CreateProduct />
                 <Row>
                   <ButtonGroup vertical className="my-2 sticky-top">
                     <CategoryButtons />
