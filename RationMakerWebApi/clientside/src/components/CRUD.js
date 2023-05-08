@@ -1,6 +1,7 @@
-import { useContext, useState } from "react";
-import { useCategories, useProducts } from "./DataContext";
+import { useState } from "react";
+import { useCategories, useProductsDispatch } from "./DataContext";
 import {
+  Alert,
   Button,
   Container,
   Form,
@@ -12,8 +13,10 @@ import {
   ModalFooter,
 } from "reactstrap";
 import { createProduct } from "../service/ApiCalls";
+import { submitForm } from "./modals/ModalDelete";
 
 export function CreateProduct() {
+  const [responseId, setResponseId] = useState(null);
   const [name, setName] = useState("");
   const [gramms, setGramms] = useState("");
   const [protein, setProtein] = useState("");
@@ -21,17 +24,39 @@ export function CreateProduct() {
   const [carbs, setCarbs] = useState("");
   const [calories, setCalories] = useState("");
   const [categoryId, setCategoryId] = useState("");
+  const [category, setCategory] = useState("");
 
   const [modal, setModal] = useState(false);
   const categories = useCategories();
 
+  const [error, setError] = useState(null);
+  const dispatch = useProductsDispatch();
+  const [addStatus, setAddStatus] = useState("");
+  const [alert, setAlert] = useState(true);
+
   function toggle() {
+    setAddStatus("");
+    setError(null);
     setModal(!modal);
   }
 
-  function handleSubmit(event) {
-    event.preventDefault();
-    createProduct({ name, gramms, protein, fats, carbs, calories, categoryId });
+  function alertToggle() {
+    setAlert(!alert);
+    toggle();
+    dispatch({
+      type: "REFRESH_PRODUCTS",
+      item: {
+        id: responseId,
+        name,
+        gramms,
+        protein,
+        fats,
+        carbs,
+        calories,
+        categoryId,
+        category,
+      },
+    });
     setName("");
     setGramms("");
     setProtein("");
@@ -39,6 +64,38 @@ export function CreateProduct() {
     setCarbs("");
     setCalories("");
     setCategoryId("");
+  }
+
+  if (addStatus === "success") {
+    return (
+      <Modal isOpen={alert} toggle={alertToggle}>
+        <ModalBody>
+          <Alert isOpen={alert} toggle={alertToggle}>
+            {name} successfully added!
+          </Alert>
+        </ModalBody>
+      </Modal>
+    );
+  }
+
+  async function handleSubmit(event) {
+    setAddStatus("submitting");
+    try {
+      const response = await submitForm(createProduct, {
+        name,
+        gramms,
+        protein,
+        fats,
+        carbs,
+        calories,
+        categoryId,
+      });
+      setResponseId(response.id);
+      setAddStatus("success");
+    } catch (err) {
+      setAddStatus("error");
+      setError(err);
+    }
   }
 
   return (
@@ -127,7 +184,14 @@ export function CreateProduct() {
                 id="category"
                 name="category"
                 type="select"
-                onChange={(e) => setCategoryId(e.target.value)}
+                onChange={(e) => {
+                  setCategoryId(e.target.value);
+                  setCategory(
+                    categories.find(
+                      (category) => category.id.toString() === e.target.value
+                    )
+                  );
+                }}
                 required
               >
                 <option>-- Select category --</option>
@@ -139,13 +203,17 @@ export function CreateProduct() {
               </Input>
             </FormGroup>
           </Form>
+          {error != null && (
+            <Alert color="warning" isOpen={true}>
+              Error. Cant add this item
+            </Alert>
+          )}
         </ModalBody>
         <ModalFooter>
           <Button
             color="danger"
             onClick={(e) => {
               handleSubmit(e);
-              toggle();
             }}
           >
             Done

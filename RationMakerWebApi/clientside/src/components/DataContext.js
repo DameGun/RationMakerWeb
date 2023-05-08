@@ -58,11 +58,19 @@ export function useProductsDispatch() {
 
 function productsReducer(state, action) {
   switch (action.type) {
+    case "REFRESH_PRODUCTS": {
+      return {
+        ...state,
+        products: [...state.products, action.item],
+      };
+    }
     case "DELETE_PRODUCT": {
       return {
         ...state,
+        filteredProducts: state.filteredProducts.filter(
+          (product) => product.id !== action.id
+        ),
         products: state.products.filter((product) => product.id !== action.id),
-        filteredProducts: state.products,
       };
     }
     case "SET_FILTERED_PRODUCTS": {

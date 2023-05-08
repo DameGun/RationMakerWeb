@@ -11,24 +11,27 @@ export const useApiCallOnMount = (service) => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    service()
-      .then((data) => {
-        setData(data);
-        setStatus(status.complete);
-      })
-      .then(() => {
-        setStatus(status.errored);
-      });
-  }, []);
+    async function fetchData() {
+      await service()
+        .then((data) => {
+          setData(data);
+          setStatus(apiStatus.complete);
+        })
+        .catch(() => {
+          setStatus(apiStatus.errored);
+        });
+    }
+    fetchData();
+  }, [service, status]);
 
   return [status === apiStatus.loading, data, status === apiStatus.errored];
 };
 
-// export const useApiCallOnMountStatusOnly = (service) => {
+// export const useApiCallOnMountStatusOnly = (service, data) => {
 //   const [status, setStatus] = useState(apiStatus.loading);
 
 //   useEffect(() => {
-//     service().then((response) => {
+//     service(data).then((response) => {
 //       if (response.ok) setStatus(status.complete);
 //       else setStatus(status.errored);
 //     });

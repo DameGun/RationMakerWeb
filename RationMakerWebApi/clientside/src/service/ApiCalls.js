@@ -24,7 +24,7 @@ export const deleteProduct = async (id) => {
         method: "DELETE",
       }
     );
-    return response.ok;
+    return response;
   } catch {
     throw new Error("Could not delete item.");
   }
@@ -32,13 +32,12 @@ export const deleteProduct = async (id) => {
 
 export const createProduct = async (product) => {
   try {
-    console.log(product);
     const response = await fetch("https://localhost:7193/Product", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(product),
     });
-    return response.ok;
+    return response;
   } catch (error) {
     throw new Error("Could not add item.");
   }

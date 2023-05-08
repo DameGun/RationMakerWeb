@@ -10,7 +10,7 @@ import {
 import { useProductsDispatch } from "../DataContext";
 import { deleteProduct } from "../../service/ApiCalls";
 
-function ModalDelete(args) {
+export default function ModalDelete(args) {
   const [modal, setModal] = useState(false);
   const dispatch = useProductsDispatch();
   const [error, setError] = useState(null);
@@ -47,7 +47,7 @@ function ModalDelete(args) {
   async function handleDelete() {
     setDeleteStatus("submitting");
     try {
-      await submitForm(args.product.id);
+      await submitForm(deleteProduct, args.product.id);
       setDeleteStatus("success");
     } catch (err) {
       setDeleteStatus("error");
@@ -66,7 +66,7 @@ function ModalDelete(args) {
           Are you sure you want to delete "{args.product.name}"?
           {error != null && (
             <Alert color="warning" isOpen={true}>
-              Error. Cant delete this item
+              Error!
             </Alert>
           )}
         </ModalBody>
@@ -83,15 +83,13 @@ function ModalDelete(args) {
   );
 }
 
-export default ModalDelete;
-
-async function submitForm(id) {
+export async function submitForm(service, data) {
   return new Promise(async (resolve, reject) => {
-    let shouldError = await deleteProduct(id);
-    if (!shouldError) {
+    let shouldError = await service(data);
+    if (!shouldError.ok) {
       reject(new Error("Something went wrong"));
     } else {
-      resolve();
+      resolve(shouldError.json());
     }
   });
 }

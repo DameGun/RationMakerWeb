@@ -1,5 +1,4 @@
 import { Container, Table } from "reactstrap";
-import CreateUpdateActions from "./CreateUpdateActions";
 import ModalDelete from "./modals/ModalDelete";
 import React from "react";
 import { useFilteredProducts } from "./DataContext";
