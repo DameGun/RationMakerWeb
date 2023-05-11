@@ -2352,22 +2352,6 @@
         "runtime": {
           "RationMakerWebApi.dll": {}
         }
-      },
-      "Npgsql.EntityFrameworkCore.PostgreSQL/8.0.0.0": {
-        "runtime": {
-          "Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.0.0"
-          }
-        }
-      },
-      "Npgsql/8.0.0.0": {
-        "runtime": {
-          "Npgsql.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.0.0"
-          }
-        }
       }
     }
   },
@@ -3688,16 +3672,6 @@
     },
     "RationMakerWebApi/1.0.0": {
       "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Npgsql.EntityFrameworkCore.PostgreSQL/8.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Npgsql/8.0.0.0": {
-      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

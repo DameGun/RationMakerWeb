@@ -2,6 +2,7 @@ import { Container, Table } from "reactstrap";
 import ModalDelete from "./modals/ModalDelete";
 import React from "react";
 import { useFilteredProducts } from "./DataContext";
+import { UpdateProduct } from "./CRUD";
 
 export default function ListProducts() {
   const context = useFilteredProducts();
@@ -36,7 +37,7 @@ export default function ListProducts() {
       <td>{product.category.name}</td>
       <td>
         <Container className="d-flex">
-          {/* <CreateUpdateActions categories={categories} actionType="update" product={product}/>*/}
+          <UpdateProduct product={product} />
           <ModalDelete product={product} />
         </Container>
       </td>

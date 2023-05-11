@@ -58,7 +58,7 @@ public class ProductController : ControllerBase
 
         return dbProduct == null
             ? StatusCode(StatusCodes.Status500InternalServerError, $"{product.Name} could not be updated.")
-            : NoContent();
+            : CreatedAtAction("GetProductById", new { id = dbProduct.Id }, dbProduct);
     }
 
     [HttpDelete("delete/{id:int}")]

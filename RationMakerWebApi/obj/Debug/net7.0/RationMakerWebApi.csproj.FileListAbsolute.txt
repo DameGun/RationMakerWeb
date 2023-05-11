@@ -1116,3 +1116,4 @@ C:\Users\dameg\Source\Repos\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\re
 C:\Users\dameg\Source\Repos\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\RationMakerWebApi.pdb
 C:\Users\dameg\Source\Repos\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\RationMakerWebApi.genruntimeconfig.cache
 C:\Users\dameg\Source\Repos\RationMakerWeb\RationMakerWebApi\obj\Debug\net7.0\ref\RationMakerWebApi.dll
+C:\Users\dameg\source\repos\RationMakerWeb\RationMakerWebApi\bin\Debug\net7.0\BCrypt.Net-Next.dll

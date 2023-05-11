@@ -42,3 +42,19 @@ export const createProduct = async (product) => {
     throw new Error("Could not add item.");
   }
 };
+
+export const updateProduct = async (product) => {
+  try {
+    const response = await fetch(
+      `https://localhost:7193/Product/Update/${product.id}`,
+      {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(product),
+      }
+    );
+    return response;
+  } catch (error) {
+    throw new Error("Could not update item");
+  }
+};

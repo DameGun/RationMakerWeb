@@ -16,8 +16,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Configuring CORS policy
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
-
 builder.Services.AddCors(options =>
 {
 	options.AddPolicy(name: MyAllowSpecificOrigins,
@@ -25,13 +25,16 @@ builder.Services.AddCors(options =>
 					  {
 						  policy.WithOrigins("http://localhost:3000")
 						  .AllowAnyHeader()
-						  .AllowAnyMethod();
+						  .AllowAnyMethod()
+						  .AllowCredentials();
 					  });
 });
 
 // Dependency Injections
 builder.Services.AddTransient<IProductService, ProductService>();
 builder.Services.AddTransient<ICategoryService, CategoryService>();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<JwtService>();
 
 // Database connection region
 var connection = builder.Configuration.GetConnectionString("DefaultConnection");
@@ -41,8 +44,6 @@ builder.Services.AddControllers().AddJsonOptions(x =>
     x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
 
 var app = builder.Build();
-
-Console.WriteLine(app.Services.CreateScope().ServiceProvider.GetRequiredService<DbContextOptions<ApplicationDbContext>>());
 
 // Adding xml data to database
 //using (var scope = app.Services.CreateScope())
