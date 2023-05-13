@@ -27,15 +27,16 @@ export const useApiCallOnMount = (service) => {
   return [status === apiStatus.loading, data, status === apiStatus.errored];
 };
 
-// export const useApiCallOnMountStatusOnly = (service, data) => {
-//   const [status, setStatus] = useState(apiStatus.loading);
+export const useApiCallSimple = (service) => {
+  const [state, setState] = useState();
 
-//   useEffect(() => {
-//     service(data).then((response) => {
-//       if (response.ok) setStatus(status.complete);
-//       else setStatus(status.errored);
-//     });
-//   }, []);
+  useEffect(() => {
+    const dataFetch = async () => {
+      const data = await (await service()).json();
+      setState(data);
+    };
+    dataFetch();
+  }, [service]);
 
-//   return status;
-// };
+  return { data: state };
+};

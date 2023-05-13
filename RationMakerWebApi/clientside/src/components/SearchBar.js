@@ -1,4 +1,5 @@
 /*import {FaSearch} from "react-icons/fa";*/
+// @ts-nocheck
 import { useProductsDispatch } from "./DataContext";
 import "./SearchBar.css";
 import { useState } from "react";

@@ -7,7 +7,7 @@ import SearchBar from "../components/SearchBar";
 import CategoryButtons from "../components/CategoryButtons";
 import ListProducts from "../components/ListProducts";
 import { ProductsProvider } from "../components/DataContext";
-import { CreateProduct } from "../components/CRUD";
+import { CreateProduct } from "../components/modals/CRUD";
 
 export default function HomePage() {
   const [loadingProducts, products, errorProducts] =

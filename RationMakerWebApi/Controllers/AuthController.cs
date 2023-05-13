@@ -3,6 +3,8 @@ using RationMakerWebApi.DataLayer.DTO;
 using RationMakerWebApi.DataLayer.Interfaces;
 using RationMakerWebApi.DataLayer.Models;
 using RationMakerWebApi.DataLayer.Services;
+using Microsoft.IdentityModel.Tokens;
+
 
 namespace RationMakerWebApi.Controllers
 {
@@ -19,6 +21,27 @@ namespace RationMakerWebApi.Controllers
 			_jwtService = jwtService;
 		}
 
+		[HttpGet("refresh")]
+		public async Task<IActionResult> RefreshToken()
+		{
+			var cookies = Request.Cookies;
+			if (!cookies.ContainsKey("RefreshToken")) return StatusCode(StatusCodes.Status401Unauthorized);
+			var refreshToken = cookies["RefreshToken"];
+
+			var token = _jwtService.Verify(refreshToken);
+			if (!token.Item1) return StatusCode(StatusCodes.Status403Forbidden, token.Item2);
+
+			string userEmail = token.Item2;
+			var dbUser = await _userService.GetByEmailAsync(userEmail);
+
+			if (dbUser == null) return StatusCode(StatusCodes.Status403Forbidden);
+
+			var accessToken = _jwtService.Generate(dbUser.Email, "access", DateTime.UtcNow.AddMinutes(5));
+
+			return new JsonResult(new { accessToken, dbUser.Email });
+
+		}
+
 		[HttpPost("register")]
 		public async Task<IActionResult> Register(RegisterDto user)
 		{
@@ -28,8 +51,11 @@ namespace RationMakerWebApi.Controllers
 				Email = user.Email,
 				Password = BCrypt.Net.BCrypt.HashPassword(user.Password)
 			};
-			 
-			return Created("success", await _userService.CreateUserAsync(dbUser));
+
+			var dbResponse = await _userService.CreateUserAsync(dbUser);
+			if (dbResponse == null) return StatusCode(StatusCodes.Status409Conflict);
+
+			return StatusCode(StatusCodes.Status201Created, new { email = dbResponse.Email });
 		}
 
 		[HttpPost("login")]
@@ -37,47 +63,56 @@ namespace RationMakerWebApi.Controllers
 		{
 			var dbUser = await _userService.GetByEmailAsync(user.Email);
 
-			if (dbUser == null) return BadRequest(new { message = "Invalid Credentials" });
+			if (dbUser == null) return BadRequest(new { Error = "Invalid Credentials" });
 
-			if (!BCrypt.Net.BCrypt.Verify(user.Password, dbUser.Password)) return BadRequest(new { message = "Invalid Credentials" });
+			if (!BCrypt.Net.BCrypt.Verify(user.Password, dbUser.Password)) return BadRequest(new { Error = "Invalid Credentials" });
 
-			var jwt = _jwtService.Generate(dbUser.Id);
+			var refreshToken = _jwtService.Generate(dbUser.Email, "refresh", DateTime.UtcNow.AddMinutes(10));
 
-			Response.Cookies.Append("jwt", jwt, new CookieOptions
+			var accessToken = _jwtService.Generate(dbUser.Email, "access", DateTime.UtcNow.AddMinutes(5));
+
+			Response.Cookies.Append("RefreshToken", refreshToken, new CookieOptions
 			{
-				HttpOnly = true
+				HttpOnly = true,
+				MaxAge = new TimeSpan(0, 10, 0)
 			});
 
-			return StatusCode(StatusCodes.Status200OK);
+			return StatusCode(StatusCodes.Status200OK, new { accessToken });
 		}
 
-		[HttpGet("user")]
-		public async Task<IActionResult> GetUser()
-		{
-			try
-			{
-				var jwt = Request.Cookies["jwt"];
+		//[HttpGet("user")]
+		//public async Task<IActionResult> GetUser()
+		//{
+		//	try
+		//	{
+		//		var jwt = Request.Cookies["RefreshToken"];
 
-				var token = _jwtService.Verify(jwt);
+		//		var token = _jwtService.Verify(jwt);
 
-				int userId = int.Parse(token.Issuer);
+		//		int userId = int.Parse(token.Item2);
 
-				var dbUser = await _userService.GetByIdAsync(userId);
+		//		var dbUser = await _userService.GetByIdAsync(userId);
 
-				return StatusCode(StatusCodes.Status200OK, dbUser);
-			}
-			catch (Exception ex)
-			{
-				return Unauthorized();
-			}
-		}
+		//		return StatusCode(StatusCodes.Status200OK, dbUser);
+		//	}
+		//	catch (Exception ex)
+		//	{
+		//		return Unauthorized();
+		//	}
+		//}
 
 		[HttpPost("logout")]
-		public async Task<IActionResult> Logout()
+		public IActionResult Logout()
 		{
-			Response.Cookies.Delete("jwt");
+			var cookies = Request.Cookies;
+			if (!cookies.ContainsKey("RefreshToken")) return StatusCode(StatusCodes.Status204NoContent);
+			var refreshToken = cookies["RefreshToken"];
 
-			return StatusCode(StatusCodes.Status200OK);
+			if (refreshToken.IsNullOrEmpty()) return StatusCode(StatusCodes.Status204NoContent);
+
+			Response.Cookies.Delete("RefreshToken");
+
+			return StatusCode(StatusCodes.Status204NoContent);
 		}
 	}
 }

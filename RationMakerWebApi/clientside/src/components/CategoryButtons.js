@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Button } from "reactstrap";
 import { useState } from "react";
 import { useCategories, useFilteredProducts } from "./DataContext";

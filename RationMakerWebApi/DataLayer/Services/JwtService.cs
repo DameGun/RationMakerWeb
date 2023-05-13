@@ -8,33 +8,42 @@ namespace RationMakerWebApi.DataLayer.Services
 	{
 		private string secureKey = "RationMaker Application Auth Secure Key";
 
-		public string Generate(int id)
+		public string Generate(string email, string type, DateTime expirationTime)
 		{
 			var symmetricSecurityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secureKey));
 			var credentials = new SigningCredentials(symmetricSecurityKey, SecurityAlgorithms.HmacSha256Signature);
 			var header = new JwtHeader(credentials);
 
-			// 1 day long 
-			var payload = new JwtPayload(id.ToString(), null, null, null, DateTime.Today.AddDays(1));
+			var payload = new JwtPayload(email, type, null, null, expirationTime);
+
 			var securityToken = new JwtSecurityToken(header, payload);
 
 
 			return new JwtSecurityTokenHandler().WriteToken(securityToken);
 		}
 
-		public JwtSecurityToken Verify(string jwt)
+		public (bool, string) Verify(string jwt)
 		{
 			var tokenHandler = new JwtSecurityTokenHandler();
 			var key = Encoding.ASCII.GetBytes(secureKey);
-			tokenHandler.ValidateToken(jwt, new TokenValidationParameters
+			try
 			{
-				IssuerSigningKey = new SymmetricSecurityKey(key),
-				ValidateIssuerSigningKey = true,
-				ValidateIssuer = false,
-				ValidateAudience = false
-			}, out SecurityToken validatedToken);
-
-			return (JwtSecurityToken)validatedToken;
+				Console.WriteLine(DateTime.UtcNow);
+				tokenHandler.ValidateToken(jwt, new TokenValidationParameters
+				{
+					IssuerSigningKey = new SymmetricSecurityKey(key),
+					ValidateIssuerSigningKey = true,
+					ValidateIssuer = false,
+					ValidateAudience = false,
+					ValidateLifetime = true,
+					ClockSkew = TimeSpan.Zero
+				}, out SecurityToken validatedToken);
+				return (true, ((JwtSecurityToken)validatedToken).Issuer);
+			}
+			catch (Exception ex)
+			{
+				return (false, "Token validation time expired");
+			}
 		}
 	}
 }

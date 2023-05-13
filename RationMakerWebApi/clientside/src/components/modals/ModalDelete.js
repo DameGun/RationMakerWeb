@@ -89,7 +89,7 @@ export async function submitForm(service, data) {
     if (shouldError.ok) {
       resolve(shouldError.json());
     } else {
-      reject(new Error("Something went wrong"));
+      reject({ response: shouldError });
     }
   });
 }

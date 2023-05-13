@@ -1,5 +1,6 @@
+// @ts-nocheck
 import { useState } from "react";
-import { useCategories, useProductsDispatch } from "./DataContext";
+import { useCategories, useProductsDispatch } from "../DataContext";
 import {
   Alert,
   Button,
@@ -12,8 +13,8 @@ import {
   ModalBody,
   ModalFooter,
 } from "reactstrap";
-import { createProduct, updateProduct } from "../service/ApiCalls";
-import { submitForm } from "./modals/ModalDelete";
+import { createProduct, updateProduct } from "../../service/ApiCalls";
+import { submitForm } from "./ModalDelete";
 
 export function CreateProduct() {
   const [responseId, setResponseId] = useState(null);
@@ -99,10 +100,12 @@ export function CreateProduct() {
   }
 
   return (
-    <Container>
-      <Button color="danger" onClick={toggle}>
-        Add
-      </Button>
+    <>
+      <div className="d-grid gap-2">
+        <Button color="dark" onClick={toggle}>
+          Add
+        </Button>
+      </div>
       <Modal isOpen={modal}>
         <ModalBody>
           <Form>
@@ -223,7 +226,7 @@ export function CreateProduct() {
           </Button>
         </ModalFooter>
       </Modal>
-    </Container>
+    </>
   );
 }
 
@@ -421,6 +424,7 @@ export function UpdateProduct({ product }) {
             </Alert>
           )}
         </ModalBody>
+        s
         <ModalFooter>
           <Button color="danger" onClick={(e) => handleSubmit(e)}>
             Done

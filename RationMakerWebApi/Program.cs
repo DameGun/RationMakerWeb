@@ -1,6 +1,9 @@
 using System.Text.Json.Serialization;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Microsoft.IdentityModel.Tokens;
 using RationMakerWebApi.DataLayer;
 using RationMakerWebApi.DataLayer.Interfaces;
 using RationMakerWebApi.DataLayer.Services;
@@ -43,7 +46,28 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlSer
 builder.Services.AddControllers().AddJsonOptions(x =>
     x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
 
+// Authorization and authentication configuring
+builder.Services.AddAuthorization();
+//builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+//	.AddJwtBearer(options =>
+//	{
+//		options.TokenValidationParameters = new TokenValidationParameters
+//		{
+//			ValidateIssuer = true,
+//			ValidIssuer = AuthOptions.ISSUER,
+//			ValidateAudience = true,
+//			ValidAudience = AuthOptions.AUDIENCE,
+//			ValidateLifetime = true,
+//			IssuerSigningKey = AuthOptions.GetSymmetricSecurityKey(),
+//			ValidateIssuerSigningKey = true,
+//		};
+//	});
+
 var app = builder.Build();
+
+app.UseAuthentication();
+app.UseAuthorization();
+
 
 // Adding xml data to database
 //using (var scope = app.Services.CreateScope())
@@ -62,7 +86,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseAuthorization();
+
 app.MapControllers();
 
 app.UseCors(MyAllowSpecificOrigins);

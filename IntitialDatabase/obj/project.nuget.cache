@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ONiRSmRtVJLcM9fdNneZct03mkCqX9p6UZ9F5PXriW+TlafX9dQbGMkMi+8MiJFFDERMfWBp7NWW1Lnp4J1sTw==",
+  "dgSpecHash": "lhIVEHQth1dE7WzRElvIFg5PcqsoKLwtA288KEvltzUlVYnISJBf+eidp68E73XJzZ+MZIec1ZBI+L6ayz3qgQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\dameg\\source\\repos\\RationMakerWeb\\IntitialDatabase\\IntitialDatabase.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\dameg\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.9\\microsoft.aspnet.webapi.client.5.2.9.nupkg.sha512",
     "C:\\Users\\dameg\\.nuget\\packages\\microsoft.aspnet.webapi.core\\5.2.9\\microsoft.aspnet.webapi.core.5.2.9.nupkg.sha512",
     "C:\\Users\\dameg\\.nuget\\packages\\microsoft.aspnet.webapi.cors\\5.2.9\\microsoft.aspnet.webapi.cors.5.2.9.nupkg.sha512",
+    "C:\\Users\\dameg\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.5\\microsoft.aspnetcore.authentication.jwtbearer.7.0.5.nupkg.sha512",
     "C:\\Users\\dameg\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.3\\microsoft.aspnetcore.openapi.7.0.3.nupkg.sha512",
     "C:\\Users\\dameg\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.11\\microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",
     "C:\\Users\\dameg\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

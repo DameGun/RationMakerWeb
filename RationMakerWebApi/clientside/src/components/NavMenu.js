@@ -1,40 +1,70 @@
-import React, { Component } from 'react';
-import { Collapse, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink } from 'reactstrap';
-import './NavMenu.css';
+// @ts-nocheck
+import React, { useState } from "react";
+import {
+  Collapse,
+  Nav,
+  NavItem,
+  NavLink,
+  Navbar,
+  NavbarBrand,
+  NavbarToggler,
+  NavbarText,
+} from "reactstrap";
+import "./NavMenu.css";
+import { logoutUser } from "../service/ApiCalls";
+import useAuth from "../service/useAuth";
 
-export class NavMenu extends Component {
-  static displayName = NavMenu.name;
+export default function NavMenu() {
+  const [isOpen, setIsOpen] = useState(false);
+  const context = useAuth();
+  let menu;
 
-  
-  constructor (props) {
-    super(props);
+  const toggle = () => setIsOpen(!isOpen);
 
-    this.toggleNavbar = this.toggleNavbar.bind(this);
-    this.state = {
-      collapsed: true
-    };
-  }
+  const logout = async () => {
+    await logoutUser();
+  };
 
-  toggleNavbar () {
-    this.setState({
-      collapsed: !this.state.collapsed
-    });
-  }
-
-  render() {
-    return (
-      <header>
-        <div className="search-bar-container">
-          <NavbarBrand to="/" className="project-name"><b>Ration Maker (Beta)</b></NavbarBrand>
-        </div>
-        <Navbar className="navbar-expand-sm navbar-toggleable-sm ng-white border-bottom box-shadow mb-3" container light>
-          <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
-          <Collapse className="d-sm-inline-flex flex-sm-row-reverse" isOpen={!this.state.collapsed} navbar>
-            <ul className="navbar-nav flex-grow">
-            </ul>
-          </Collapse>
-        </Navbar>
-      </header>
+  if (!context.auth.accessToken) {
+    menu = (
+      <Nav className="me-auto" navbar>
+        <NavItem>
+          <NavLink href="/login">Login</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink href="/register">Register</NavLink>
+        </NavItem>
+      </Nav>
+    );
+  } else {
+    menu = (
+      <Nav className="me-auto" navbar>
+        <NavItem>
+          <NavLink href="/" onClick={logout}>
+            Logout
+          </NavLink>
+        </NavItem>
+      </Nav>
     );
   }
+
+  return (
+    <div>
+      <Navbar expand="md">
+        <NavbarBrand href="/">
+          <b>RationMaker (Beta)</b>
+        </NavbarBrand>
+        <NavbarToggler onClick={toggle} />
+        <Collapse isOpen={isOpen} navbar>
+          {menu}
+        </Collapse>
+        <NavbarText>{context.auth?.email}</NavbarText>
+      </Navbar>
+      <Navbar
+        className="navbar-expand-sm navbar-toggleable-sm ng-white border-bottom box-shadow mb-3"
+        container
+        light
+      ></Navbar>
+    </div>
+  );
 }
