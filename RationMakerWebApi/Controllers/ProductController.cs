@@ -31,14 +31,6 @@ public class ProductController : ControllerBase
         return product == null ? StatusCode(StatusCodes.Status204NoContent, "No product found by id") : StatusCode(StatusCodes.Status200OK, product);
     }
 
-    [HttpGet("searchbar/{keyword}")]
-    public async Task<IActionResult> SearchProducts(string keyword)
-    {
-        var products = await _productService.SearchProducts(keyword) ?? await _productService.GetProductsAsync();
-
-        return StatusCode(StatusCodes.Status200OK, products);
-    }
-
     [HttpPost]
     public async Task<IActionResult> AddProduct(Product product)
     {

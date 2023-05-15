@@ -80,27 +80,6 @@ namespace RationMakerWebApi.Controllers
 			return StatusCode(StatusCodes.Status200OK, new { accessToken });
 		}
 
-		//[HttpGet("user")]
-		//public async Task<IActionResult> GetUser()
-		//{
-		//	try
-		//	{
-		//		var jwt = Request.Cookies["RefreshToken"];
-
-		//		var token = _jwtService.Verify(jwt);
-
-		//		int userId = int.Parse(token.Item2);
-
-		//		var dbUser = await _userService.GetByIdAsync(userId);
-
-		//		return StatusCode(StatusCodes.Status200OK, dbUser);
-		//	}
-		//	catch (Exception ex)
-		//	{
-		//		return Unauthorized();
-		//	}
-		//}
-
 		[HttpPost("logout")]
 		public IActionResult Logout()
 		{

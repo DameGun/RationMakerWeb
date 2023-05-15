@@ -12,6 +12,8 @@ public class ApplicationDbContext : DbContext
     public DbSet<Product> Products { get; set; }
     public DbSet<Category> Categories { get; set; }
     public DbSet<User> Users { get; set; }
+    public DbSet<MealTime> MealTime { get; set; }
+    public DbSet<DailyMealPlan> DailyMealPlan { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     { 
@@ -23,5 +25,13 @@ public class ApplicationDbContext : DbContext
         {
             entity.HasIndex(e => e.Email).IsUnique();
         });
+        modelBuilder.Entity<DailyMealPlan>()
+            .HasOne(x => x.AppUser)
+            .WithMany(x => x.DailyMealPlans)
+            .OnDelete(DeleteBehavior.Cascade);
+        modelBuilder.Entity<DailyMealPlan>()
+            .HasMany(x => x.MealTimes)
+            .WithOne(x => x.Plan)
+            .OnDelete(DeleteBehavior.Cascade);
 	}
 }

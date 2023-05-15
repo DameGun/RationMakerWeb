@@ -548,3 +548,6 @@ C:\Users\dameg\source\repos\RationMakerWeb\IntitialDatabase\obj\Debug\net7.0\ref
 C:\Users\dameg\source\repos\RationMakerWeb\IntitialDatabase\obj\Debug\net7.0\IntitialDatabase.pdb
 C:\Users\dameg\source\repos\RationMakerWeb\IntitialDatabase\obj\Debug\net7.0\IntitialDatabase.genruntimeconfig.cache
 C:\Users\dameg\source\repos\RationMakerWeb\IntitialDatabase\obj\Debug\net7.0\ref\IntitialDatabase.dll
+C:\Users\dameg\source\repos\RationMakerWeb\IntitialDatabase\bin\Debug\net7.0\clientside\src\jsconfig.json
+C:\Users\dameg\source\repos\RationMakerWeb\IntitialDatabase\bin\Debug\net7.0\BCrypt.Net-Next.dll
+C:\Users\dameg\source\repos\RationMakerWeb\IntitialDatabase\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

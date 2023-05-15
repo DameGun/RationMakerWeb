@@ -12,4 +12,6 @@ public class Product
 
     public Category? Category { get; set; }
     public int CategoryId { get; set; }
+
+    public List<MealTime>? Meals { get; set; }
 }

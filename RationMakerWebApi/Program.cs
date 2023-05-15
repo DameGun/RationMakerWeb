@@ -1,14 +1,9 @@
-using System.Text.Json.Serialization;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Builder;
+﻿using System.Text.Json.Serialization;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using Microsoft.IdentityModel.Tokens;
 using RationMakerWebApi.DataLayer;
 using RationMakerWebApi.DataLayer.Interfaces;
 using RationMakerWebApi.DataLayer.Services;
-using RationMakerWebApi.Miscellaneous;
-using static System.Net.Mime.MediaTypeNames;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -36,6 +31,8 @@ builder.Services.AddCors(options =>
 // Dependency Injections
 builder.Services.AddTransient<IProductService, ProductService>();
 builder.Services.AddTransient<ICategoryService, CategoryService>();
+builder.Services.AddTransient<IMealTimeService,  MealTimeService>();
+builder.Services.AddTransient<IDailyMealPlan, DailyMealPlanService>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<JwtService>();
 

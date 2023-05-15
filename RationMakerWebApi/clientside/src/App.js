@@ -9,6 +9,7 @@ import RegisterPage from "./pages/RegisterPage";
 import PersistLogin from "./components/PersistLogin";
 import Unauthorized from "./components/Unathorized";
 import RequireAuth from "./components/RequireAuth";
+import Missing from "./pages/Missing";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/unauthorized" element={<Unauthorized />} />
+        <Route path="*" element={<Missing />} />
       </Routes>
     </>
   );

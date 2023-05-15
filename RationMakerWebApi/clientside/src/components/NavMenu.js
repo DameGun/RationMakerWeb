@@ -50,8 +50,8 @@ export default function NavMenu() {
 
   return (
     <div>
-      <Navbar expand="md">
-        <NavbarBrand href="/">
+      <Navbar expand="md" className="pt-3">
+        <NavbarBrand href="/" className="pl-5">
           <b>RationMaker (Beta)</b>
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />

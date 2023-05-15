@@ -1,6 +1,5 @@
 import {
   ButtonGroup,
-  Container,
   Pagination,
   PaginationItem,
   PaginationLink,
