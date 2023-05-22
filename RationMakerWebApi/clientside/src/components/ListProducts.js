@@ -9,6 +9,7 @@ import ModalDelete from "./modals/ModalDelete";
 import React, { useState } from "react";
 import { useFilteredProducts } from "./DataContext";
 import { UpdateProduct } from "./modals/CRUD";
+import { AddToMealPlan } from "./modals/AddToMealPlan";
 
 export default function ListProducts() {
   const context = useFilteredProducts();
@@ -86,6 +87,7 @@ export default function ListProducts() {
         <ButtonGroup>
           <UpdateProduct product={product} />
           <ModalDelete product={product} />
+          <AddToMealPlan productId={product.id} />
         </ButtonGroup>
       </td>
     </tr>

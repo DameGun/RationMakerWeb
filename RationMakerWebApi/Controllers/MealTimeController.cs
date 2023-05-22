@@ -29,10 +29,13 @@ namespace RationMakerWebApi.Controllers
 		public async Task<IActionResult> AddMealTime(MealTimeDto mealTimeDto)
 		{
 			List<Product> products = new List<Product>();
-			foreach (var productId in mealTimeDto.ProductsId)
+			if (mealTimeDto.ProductsId != null)
 			{
-				var dbProduct = await _productService.GetProductAsync(productId);
-				if (dbProduct != null) products.Add(dbProduct);
+				foreach (var productId in mealTimeDto.ProductsId)
+				{
+					var dbProduct = await _productService.GetProductAsync(productId);
+					if (dbProduct != null) products.Add(dbProduct);
+				}
 			}
 
 			MealTime mealTime = new MealTime	
@@ -42,7 +45,7 @@ namespace RationMakerWebApi.Controllers
 				DailyMealPlanId = mealTimeDto.DailyMealPlanId
 			};
 
-			var dbMealTime = _mealTimeService.AddMealTimeAsync(mealTime);
+			var dbMealTime = await _mealTimeService.AddMealTimeAsync(mealTime);
 
 			return dbMealTime == null 
 				? StatusCode(StatusCodes.Status500InternalServerError, $"MealTime {mealTime.Id} could not be added.")
@@ -77,5 +80,24 @@ namespace RationMakerWebApi.Controllers
 				? StatusCode(StatusCodes.Status500InternalServerError, message)
 				: StatusCode(StatusCodes.Status200OK, dbMealTime);
 		}
+
+		[HttpPost("addProductTo/{id:int}")]
+		public async Task<IActionResult> AddProductToMealPlan(int id, int productId)
+		{
+			var dbMealTime = await _mealTimeService.GetMealTimeAsync(id);
+			if (dbMealTime == null) return BadRequest();
+
+			var dbProduct = await _productService.GetProductAsync(productId);
+			if (dbProduct == null) return BadRequest();
+
+			bool dbResponse = dbMealTime.AddIfNotExists(dbProduct);
+			if (!dbResponse) return BadRequest();
+
+			var updatedMealTime = await _mealTimeService.UpdateMealTimeAsync(dbMealTime);
+			return updatedMealTime == null
+				? StatusCode(StatusCodes.Status500InternalServerError)
+				: StatusCode(StatusCodes.Status200OK, updatedMealTime);
+		}
+
 	}
 }

@@ -6,13 +6,13 @@ const apiStatus = {
   errored: "errored",
 };
 
-export const useApiCallOnMount = (service) => {
+export const useApiCallOnMount = (service, body) => {
   const [status, setStatus] = useState(apiStatus.loading);
   const [data, setData] = useState([]);
 
   useEffect(() => {
     async function fetchData() {
-      await service()
+      await service(body)
         .then((data) => {
           setData(data);
           setStatus(apiStatus.complete);
@@ -22,7 +22,7 @@ export const useApiCallOnMount = (service) => {
         });
     }
     fetchData();
-  }, [service, status]);
+  }, [body, service, status]);
 
   return [status === apiStatus.loading, data, status === apiStatus.errored];
 };

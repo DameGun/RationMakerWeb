@@ -22,7 +22,7 @@ namespace RationMakerWebApi.DataLayer.Services
 			{
 				await _context.DailyMealPlan.AddAsync(dailyMealPlan);
 				await _context.SaveChangesAsync();
-				return await _context.DailyMealPlan.FindAsync(dailyMealPlan);
+				return await _context.DailyMealPlan.FindAsync(dailyMealPlan.Id);
 			}
 			catch (Exception ex)
 			{
@@ -48,14 +48,16 @@ namespace RationMakerWebApi.DataLayer.Services
 			}
 		}
 
-		public async Task<List<DailyMealPlan>?> GetAll(int userId)
+		public async Task<List<DailyMealPlan>?> GetAll(string email)
 		{
 			try
 			{
-				return await _context.DailyMealPlan.Include(m => m.MealTimes)
-					.ThenInclude(m => m.Meal)
-					.ThenInclude(p => p.Category)
-					.Where(d => d.UserId == userId)
+				return await _context.DailyMealPlan
+					.Include(m => m.MealTimes)
+						.ThenInclude(m => m.Meal)
+						.ThenInclude(p => p.Category)
+					.Include(m => m.AppUser)
+					.Where(d => d.AppUser.Email == email)
 					.ToListAsync();
 			}
 			catch (Exception ex)

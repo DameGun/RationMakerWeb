@@ -10,6 +10,8 @@ import PersistLogin from "./components/PersistLogin";
 import Unauthorized from "./components/Unathorized";
 import RequireAuth from "./components/RequireAuth";
 import Missing from "./pages/Missing";
+import MealPlansPage from "./pages/MealPlansPage";
+import { MealPlansProvider } from "./service/MealPlansContext";
 
 function App() {
   return (
@@ -18,7 +20,10 @@ function App() {
       <Routes>
         <Route element={<PersistLogin />}>
           <Route element={<RequireAuth />}>
-            <Route path="/" element={<HomePage />} />
+            <Route element={<MealPlansProvider />}>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/myPlans" element={<MealPlansPage />} />
+            </Route>
           </Route>
         </Route>
         <Route path="/login" element={<LoginPage />} />

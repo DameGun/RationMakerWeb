@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
+using RationMakerWebApi.DataLayer.DTO;
 using RationMakerWebApi.DataLayer.Interfaces;
 using RationMakerWebApi.DataLayer.Models;
 
@@ -10,10 +11,12 @@ namespace RationMakerWebApi.Controllers
 	public class DailyMealPlanController : ControllerBase
 	{
 		private readonly IDailyMealPlan _dailyMealPlanService;
+		private readonly IUserService _userService;
 
-		public DailyMealPlanController(IDailyMealPlan dailyMealPlanService)
+		public DailyMealPlanController(IDailyMealPlan dailyMealPlanService, IUserService userService)
 		{
 			_dailyMealPlanService = dailyMealPlanService;
+			_userService = userService;
 		}
 
 		[HttpGet("getPlan/{id:int}")]
@@ -25,20 +28,29 @@ namespace RationMakerWebApi.Controllers
 				: StatusCode(StatusCodes.Status200OK, dbDailyMealPlan);
 		}
 
-		[HttpGet("getAllPlans/{userId:int}")]
-		public async Task<IActionResult> GetAll(int userId)
+		[HttpGet("getAllPlans")]
+		public async Task<IActionResult> GetAll(string email)
 		{
-			var dbPlans = await _dailyMealPlanService.GetAll(userId);
+			var dbPlans = await _dailyMealPlanService.GetAll(email);
 			return dbPlans == null 
 				? StatusCode(StatusCodes.Status204NoContent) 
 				: StatusCode(StatusCodes.Status200OK, dbPlans);
 		}
 
 		[HttpPost("add")]
-		public async Task<IActionResult> AddDailyMealPlan(DailyMealPlan dailyMealPlanDto)
+		public async Task<IActionResult> AddDailyMealPlan(DailyMealPlanDto dailyMealPlanDto)
 		{
-			
-			var dbDailyMealPlan = await _dailyMealPlanService.AddDailyMealPlanAsync(dailyMealPlanDto);
+			var user = await _userService.GetByEmailAsync(dailyMealPlanDto.UserEmail);
+			if (user == null) return StatusCode(StatusCodes.Status500InternalServerError, $"{dailyMealPlanDto.Name} could not be added.");
+
+			int userId = user.Id;
+
+			DailyMealPlan dailyMealPlanBuff = new DailyMealPlan
+			{
+				Name = dailyMealPlanDto.Name,
+				UserId = userId,
+			};
+			var dbDailyMealPlan = await _dailyMealPlanService.AddDailyMealPlanAsync(dailyMealPlanBuff);
 
 			return dbDailyMealPlan == null
 				? StatusCode(StatusCodes.Status500InternalServerError, $"{dailyMealPlanDto.Name} could not be added.")
@@ -50,7 +62,7 @@ namespace RationMakerWebApi.Controllers
 		{
 			if (id != dailyMealPlanDto.Id) return BadRequest();
 
-			var dbDailyMealPlan = await _dailyMealPlanService.GetDailyMealPlanAsync(id);
+			var dbDailyMealPlan = await _dailyMealPlanService.UpdateDailyMealPlanAsync(dailyMealPlanDto);
 
 			return dbDailyMealPlan == null
 				? StatusCode(StatusCodes.Status500InternalServerError)

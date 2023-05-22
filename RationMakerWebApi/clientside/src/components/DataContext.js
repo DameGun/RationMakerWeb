@@ -70,7 +70,6 @@ function productsReducer(state, action) {
         ...state,
         filteredProducts: state.filteredProducts.map((product) => {
           if (product.id === action.item.id) {
-            product = action.item;
             return { ...product, product: action.item };
           }
           return product;

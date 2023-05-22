@@ -61,7 +61,7 @@ export default function ModalDelete(args) {
         Delete
       </Button>
       <Modal isOpen={modal} toggle={toggle}>
-        <ModalHeader toggle={toggle}>Delete item</ModalHeader>
+        <ModalHeader toggle={toggle}>Delete product</ModalHeader>
         <ModalBody>
           Are you sure you want to delete "{args.product.name}"?
           {error != null && (

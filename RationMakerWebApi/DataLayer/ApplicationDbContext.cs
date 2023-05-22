@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using RationMakerWebApi.DataLayer.Models;
 
 namespace RationMakerWebApi.DataLayer;
@@ -25,6 +26,9 @@ public class ApplicationDbContext : DbContext
         {
             entity.HasIndex(e => e.Email).IsUnique();
         });
+        modelBuilder.Entity<User>()
+            .Property(u => u.DailyActivity)
+            .HasConversion(new EnumToStringConverter<Activity>());
         modelBuilder.Entity<DailyMealPlan>()
             .HasOne(x => x.AppUser)
             .WithMany(x => x.DailyMealPlans)

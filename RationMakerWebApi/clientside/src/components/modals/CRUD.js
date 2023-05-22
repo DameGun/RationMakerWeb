@@ -10,6 +10,7 @@ import {
   Input,
   Label,
   Modal,
+  ModalHeader,
   ModalBody,
   ModalFooter,
 } from "reactstrap";
@@ -107,6 +108,7 @@ export function CreateProduct() {
         </Button>
       </div>
       <Modal isOpen={modal}>
+        <ModalHeader toggle={toggle}>Add product</ModalHeader>
         <ModalBody>
           <Form>
             <FormGroup>
@@ -312,6 +314,7 @@ export function UpdateProduct({ product }) {
         Edit
       </Button>
       <Modal isOpen={modal}>
+        <ModalHeader toggle={toggle}>Update product</ModalHeader>
         <ModalBody>
           <Form>
             <FormGroup>

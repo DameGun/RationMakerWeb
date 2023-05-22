@@ -9,6 +9,7 @@ import {
   NavbarBrand,
   NavbarToggler,
   NavbarText,
+  Button,
 } from "reactstrap";
 import "./NavMenu.css";
 import { logoutUser } from "../service/ApiCalls";
@@ -29,10 +30,18 @@ export default function NavMenu() {
     menu = (
       <Nav className="me-auto" navbar>
         <NavItem>
-          <NavLink href="/login">Login</NavLink>
+          <NavLink href="/login">
+            <Button outline={true} color="primary">
+              Login
+            </Button>
+          </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="/register">Register</NavLink>
+          <NavLink href="/register">
+            <Button outline={true} color="primary">
+              Register
+            </Button>
+          </NavLink>
         </NavItem>
       </Nav>
     );
@@ -40,8 +49,15 @@ export default function NavMenu() {
     menu = (
       <Nav className="me-auto" navbar>
         <NavItem>
+          <NavLink href="/myPlans">
+            <Button outline={true} color="primary">
+              MealPlans
+            </Button>
+          </NavLink>
+        </NavItem>
+        <NavItem>
           <NavLink href="/" onClick={logout}>
-            Logout
+            <Button outline={true}>Logout</Button>
           </NavLink>
         </NavItem>
       </Nav>
