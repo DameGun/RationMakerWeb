@@ -66,7 +66,7 @@ export default function NavMenu() {
 
   return (
     <div>
-      <Navbar expand="md" className="pt-3">
+      <Navbar expand="md" className="pt-3" container={true}>
         <NavbarBrand href="/" className="pl-5">
           <b>RationMaker (Beta)</b>
         </NavbarBrand>

@@ -1,8 +1,9 @@
-/*import {FaSearch} from "react-icons/fa";*/
+import { FaSearch } from "react-icons/fa";
 // @ts-nocheck
-import { useProductsDispatch } from "./DataContext";
+import { useProductsDispatch } from "../context/DataContext";
 import "./SearchBar.css";
 import { useState } from "react";
+import React from "react";
 
 const SearchBar = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -16,7 +17,7 @@ const SearchBar = () => {
 
   return (
     <div className="input-wrapper">
-      {/*<FaSearch id="search-icon"/>*/}
+      <FaSearch />
       <input
         type="text"
         placeholder="Search..."

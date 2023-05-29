@@ -1,7 +1,7 @@
 // @ts-nocheck
 import { Button } from "reactstrap";
 import { useState } from "react";
-import { useCategories, useFilteredProducts } from "./DataContext";
+import { useCategories, useFilteredProducts } from "../context/DataContext";
 
 export default function CategoryButtons() {
   const [selectedCategory, setSelectedCategory] = useState("");

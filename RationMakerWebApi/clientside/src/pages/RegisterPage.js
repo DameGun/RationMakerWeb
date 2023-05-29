@@ -11,7 +11,8 @@ import {
 } from "reactstrap";
 import { registerUser } from "../service/ApiCalls";
 import { Link } from "react-router-dom";
-import { submitForm } from "../components/modals/ModalDelete";
+import { submitForm } from "../service/SubmitForm";
+import { Loading } from "../components/Loading";
 
 export default function RegisterPage() {
   const [name, setName] = useState("");
@@ -19,11 +20,11 @@ export default function RegisterPage() {
   const [password, setPassword] = useState("");
 
   const [errMsg, setErrMsg] = useState("");
-  const [success, setSuccess] = useState(false);
+  const [status, setStatus] = useState("");
 
   async function submit(e) {
     e.preventDefault();
-
+    setStatus("submitting");
     try {
       await submitForm(registerUser, {
         name,
@@ -31,12 +32,13 @@ export default function RegisterPage() {
         password,
       });
 
-      setSuccess(true);
+      setStatus("success");
 
       setName("");
       setEmail("");
       setPassword("");
     } catch (err) {
+      setStatus("error");
       console.log(err);
       if (!err?.response) {
         setErrMsg("No Server Response");
@@ -50,7 +52,7 @@ export default function RegisterPage() {
 
   return (
     <>
-      {success ? (
+      {status === "success" ? (
         <Container>
           <h1>Success!</h1>
           <p>
@@ -121,9 +123,13 @@ export default function RegisterPage() {
                   />
                 </FormGroup>
                 <Row>
-                  <Button color="primary" outline={true} type="submit">
-                    Submit
-                  </Button>
+                  {status === "submitting" ? (
+                    <Loading />
+                  ) : (
+                    <Button color="primary" outline={true} type="submit">
+                      Submit
+                    </Button>
+                  )}
                 </Row>
               </Form>
             </Col>

@@ -1,15 +1,22 @@
 import {
-  ButtonGroup,
+  Button,
   Pagination,
   PaginationItem,
   PaginationLink,
   Table,
 } from "reactstrap";
-import ModalDelete from "./modals/ModalDelete";
-import React, { useState } from "react";
-import { useFilteredProducts } from "./DataContext";
-import { UpdateProduct } from "./modals/CRUD";
-import { AddToMealPlan } from "./modals/AddToMealPlan";
+import React, { useEffect, useState } from "react";
+import { useFilteredProducts } from "../context/DataContext";
+import {
+  addProductToMealTime,
+  deleteProduct,
+  updateProduct,
+} from "../service/ApiCalls";
+import { ModalWrapper } from "./modals/ModalWrapper";
+import DeleteFunc from "./modals/DeleteFunc";
+import { GrEdit, GrTableAdd, GrTrash } from "react-icons/gr";
+import CreateUpdateProductFunc from "./modals/CreateUpdateProductFunc";
+import AddToMealPlanFunc from "./modals/AddToMealPlanFunc";
 
 export default function ListProducts() {
   const context = useFilteredProducts();
@@ -17,6 +24,10 @@ export default function ListProducts() {
   const pageSize = 25;
 
   const [activePage, setActivePage] = useState(1);
+
+  useEffect(() => {
+    setActivePage(1);
+  }, [context.state.selectedCategory]);
 
   const totalPages = Math.ceil(
     context.state.filteredProducts.length / pageSize
@@ -84,11 +95,47 @@ export default function ListProducts() {
       <td>{product.calories}</td>
       <td>{product.category.name}</td>
       <td>
-        <ButtonGroup>
-          <UpdateProduct product={product} />
-          <ModalDelete product={product} />
-          <AddToMealPlan productId={product.id} />
-        </ButtonGroup>
+        <div className="d-flex flex-direction-row justify-content-between">
+          <ModalWrapper
+            modalHeader={"Edit product"}
+            service={updateProduct}
+            dispatchType={"product"}
+            dispatchName={"UPDATE_PRODUCT"}
+            button={
+              <Button size="sm" color="black" outline={true}>
+                <GrEdit />
+              </Button>
+            }
+          >
+            <CreateUpdateProductFunc product={product} />
+          </ModalWrapper>
+          <ModalWrapper
+            modalHeader={"Delete product"}
+            service={deleteProduct}
+            dispatchType={"product"}
+            dispatchName={"DELETE_PRODUCT"}
+            button={
+              <Button size="sm" color="black" outline={true}>
+                <GrTrash />
+              </Button>
+            }
+          >
+            <DeleteFunc data={product}></DeleteFunc>
+          </ModalWrapper>
+          <ModalWrapper
+            modalHeader={"Add to meal plan"}
+            service={addProductToMealTime}
+            dispatchType={"empty"}
+            dispatchName={""}
+            button={
+              <Button size="sm" color="black" outline={true}>
+                <GrTableAdd />
+              </Button>
+            }
+          >
+            <AddToMealPlanFunc productId={product.id} />
+          </ModalWrapper>
+        </div>
       </td>
     </tr>
   ));

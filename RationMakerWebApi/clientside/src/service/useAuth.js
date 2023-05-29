@@ -1,6 +1,6 @@
 // @ts-nocheck
 import { useDebugValue } from "react";
-import { useUsers } from "../service/UserContext";
+import { useUsers } from "../context/UserContext";
 
 const useAuth = () => {
   const { auth } = useUsers();

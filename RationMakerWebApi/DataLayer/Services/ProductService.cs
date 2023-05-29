@@ -59,7 +59,7 @@ public class ProductService : IProductService
         {
             await _context.Products.AddAsync(product);
             await _context.SaveChangesAsync();
-            return await _context.Products.FindAsync(product.Id);
+            return await _context.Products.Include(c => c.Category).FirstOrDefaultAsync(i => i.Id == product.Id);
         }
         catch (Exception ex)
         {
@@ -73,8 +73,8 @@ public class ProductService : IProductService
         {
             _context.Entry(product).State = EntityState.Modified;
             await _context.SaveChangesAsync();
-            return product;
-        }
+            return await _context.Products.Include(c => c.Category).FirstOrDefaultAsync(i => i.Id == product.Id);
+		}
         catch (Exception ex)
         {
             return null;

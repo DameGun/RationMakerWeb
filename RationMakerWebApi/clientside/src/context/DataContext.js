@@ -62,34 +62,38 @@ function productsReducer(state, action) {
     case "ADD_PRODUCT": {
       return {
         ...state,
-        products: [...state.products, action.item],
+        products: [...state.products, action.payload],
       };
     }
     case "UPDATE_PRODUCT": {
       return {
         ...state,
         filteredProducts: state.filteredProducts.map((product) => {
-          if (product.id === action.item.id) {
-            return { ...product, product: action.item };
+          if (product.id === action.payload.id) {
+            product = action.payload;
+            return { ...product, product: action.payload };
           }
           return product;
         }),
         products: state.products.map((product) => {
-          if (product.id === action.item.id) {
-            product = action.item;
-            return { ...product, product: action.item };
+          if (product.id === action.payload.id) {
+            product = action.payload;
+            return { ...product, product: action.payload };
           }
           return product;
         }),
       };
     }
     case "DELETE_PRODUCT": {
+      console.log(action.payload);
       return {
         ...state,
         filteredProducts: state.filteredProducts.filter(
-          (product) => product.id !== action.id
+          (product) => product.id !== action.payload.id
         ),
-        products: state.products.filter((product) => product.id !== action.id),
+        products: state.products.filter(
+          (product) => product.id !== action.payload.id
+        ),
       };
     }
     case "SET_FILTERED_PRODUCTS": {

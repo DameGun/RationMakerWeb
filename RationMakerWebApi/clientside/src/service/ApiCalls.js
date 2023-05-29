@@ -150,7 +150,39 @@ export const addPlan = async (plan) => {
   }
 };
 
-export const addMealMealTime = async (mealTime) => {
+export const updateMealPlan = async (plan) => {
+  try {
+    console.log(plan);
+    const response = await fetch(
+      `http://localhost:5117/dailymealplan/update/${plan.id}`,
+      {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(plan),
+      }
+    );
+    return response;
+  } catch (error) {
+    throw new Error("Could not update meal plan");
+  }
+};
+
+export const deleteMealPlan = async (id) => {
+  try {
+    const response = await fetch(
+      `http://localhost:5117/dailymealplan/delete/${id}`,
+      {
+        method: "DELETE",
+        headers: { "Content-Type": "application/json" },
+      }
+    );
+    return response;
+  } catch (error) {
+    throw new Error("Could not delete meal plan");
+  }
+};
+
+export const addMealTime = async (mealTime) => {
   try {
     const response = await fetch("http://localhost:5117/mealtime/add", {
       method: "POST",
@@ -160,6 +192,26 @@ export const addMealMealTime = async (mealTime) => {
     return response;
   } catch (error) {
     throw new Error("Could not add meal time");
+  }
+};
+
+export const updateMealTime = async (payload) => {
+  try {
+    const response = await fetch(
+      `http://localhost:5117/mealtime/update?` +
+        new URLSearchParams({
+          id: payload.mealTime.id,
+          opType: payload.opType,
+        }),
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload.mealTime),
+      }
+    );
+    return response;
+  } catch (error) {
+    throw new Error("Could not update meal time");
   }
 };
 

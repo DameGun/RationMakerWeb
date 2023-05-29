@@ -1,4 +1,4 @@
-import { submitForm } from "../components/modals/ModalDelete";
+import { submitForm } from "../service/SubmitForm";
 import { refreshToken } from "./ApiCalls";
 import useAuth from "./useAuth";
 

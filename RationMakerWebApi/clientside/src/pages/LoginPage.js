@@ -9,15 +9,18 @@ import {
   Input,
   Label,
   Row,
+  Spinner,
 } from "reactstrap";
 import { loginUser } from "../service/ApiCalls";
 import { useNavigate } from "react-router-dom";
 import useAuth from "../service/useAuth";
-import { submitForm } from "../components/modals/ModalDelete";
+import { submitForm } from "../service/SubmitForm";
+import { Loading } from "../components/Loading";
 
 export default function LoginPage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [status, setStatus] = useState("");
 
   const [errMsg, setErrMsg] = useState("");
 
@@ -30,7 +33,7 @@ export default function LoginPage() {
 
   async function submit(e) {
     e.preventDefault();
-
+    setStatus("submitting");
     try {
       const response = await submitForm(loginUser, { email, password });
 
@@ -38,9 +41,11 @@ export default function LoginPage() {
       setAuth({ email, password, accessToken });
       setEmail("");
       setPassword("");
+      setStatus("success");
 
       return navigate("/");
     } catch (err) {
+      setStatus("error");
       if (!err?.response) {
         setErrMsg("No Server Response");
       } else if (err.response?.status === 400) {
@@ -101,10 +106,14 @@ export default function LoginPage() {
                 onChange={(e) => setPassword(e.target.value)}
               />
             </FormGroup>
-            <Row>
-              <Button color="primary" outline={true} type="submit">
-                Submit
-              </Button>
+            <Row className="d-flex justify-content-center">
+              {status === "submitting" ? (
+                <Loading />
+              ) : (
+                <Button color="primary" outline={true} type="submit">
+                  Submit
+                </Button>
+              )}
             </Row>
           </Form>
         </Col>

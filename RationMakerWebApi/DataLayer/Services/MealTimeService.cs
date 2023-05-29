@@ -57,17 +57,69 @@ namespace RationMakerWebApi.DataLayer.Services
 			}
 		}
 
+		public async Task<MealTime?> GetMealTimeAsNoTracking(int id)
+		{
+			try
+			{
+				return await _context.MealTime.Include(m => m.Meal).ThenInclude(m => m.Category).AsNoTracking().FirstOrDefaultAsync(i => i.Id == id);
+			}
+			catch (Exception ex)
+			{
+				return null;
+			}
+		}
+
 		public async Task<MealTime?> UpdateMealTimeAsync(MealTime mealTime)
 		{
 			try
 			{
 				_context.Entry(mealTime).State = EntityState.Modified;
 				await _context.SaveChangesAsync();
+				Console.WriteLine(_context.ChangeTracker.DebugView.LongView);
 				return mealTime;
 			}
 			catch (Exception ex)
 			{
 				return null;
+			}
+		}
+		public async Task<MealTime?> RemoveProductAsync(MealTime mealTime)
+		{
+			try
+			{
+				var dbMealTime = await GetMealTimeAsync(mealTime.Id);
+
+				var product = dbMealTime.Meal.Except(mealTime.Meal).FirstOrDefault();
+
+				if (product == null) return null;
+
+				dbMealTime.Meal.Remove(product);
+				await _context.SaveChangesAsync();
+				return dbMealTime;
+			}
+			catch (Exception ex)
+			{
+				return null;
+			}
+		}
+
+		public async Task<(bool, string)> UpdateJoinTable(int mealTimeId, Product deletedProduct)
+		{
+			try
+			{
+				var reference = _context.Set<Dictionary<string, object>>()
+						.Where(m => m.ContainsKey(mealTimeId.ToString()))
+						.Where(p => p.Values.Contains(deletedProduct.Id))
+						.FirstOrDefault();
+				if (reference == null) return (false, "Join table could not be updated");
+				_context.Set<Dictionary<string, object>>().Remove(reference);
+				await _context.SaveChangesAsync();
+				return (true, "Join table updated");
+				
+			}
+			catch (Exception ex)
+			{
+				return (false, $"An error occured. Error Message: {ex.Message}");
 			}
 		}
 	}

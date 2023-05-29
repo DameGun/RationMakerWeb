@@ -7,11 +7,12 @@ import { Route, Routes } from "react-router-dom";
 import NavMenu from "./components/NavMenu";
 import RegisterPage from "./pages/RegisterPage";
 import PersistLogin from "./components/PersistLogin";
-import Unauthorized from "./components/Unathorized";
+import Unauthorized from "./pages/Unathorized";
 import RequireAuth from "./components/RequireAuth";
 import Missing from "./pages/Missing";
 import MealPlansPage from "./pages/MealPlansPage";
-import { MealPlansProvider } from "./service/MealPlansContext";
+import { MealPlansProvider } from "./context/MealPlansContext";
+import { ModalProvider } from "./context/ModalContext";
 
 function App() {
   return (
@@ -21,8 +22,10 @@ function App() {
         <Route element={<PersistLogin />}>
           <Route element={<RequireAuth />}>
             <Route element={<MealPlansProvider />}>
-              <Route path="/" element={<HomePage />} />
-              <Route path="/myPlans" element={<MealPlansPage />} />
+              <Route element={<ModalProvider />}>
+                <Route path="/" element={<HomePage />} />
+                <Route path="/myPlans" element={<MealPlansPage />} />
+              </Route>
             </Route>
           </Route>
         </Route>

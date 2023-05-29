@@ -53,11 +53,13 @@ namespace RationMakerWebApi.DataLayer.Services
 			try
 			{
 				return await _context.DailyMealPlan
+					.Join(_context.Users,
+					m => m.UserId,
+					u => u.Id,
+					(m, u) => m)
 					.Include(m => m.MealTimes)
 						.ThenInclude(m => m.Meal)
 						.ThenInclude(p => p.Category)
-					.Include(m => m.AppUser)
-					.Where(d => d.AppUser.Email == email)
 					.ToListAsync();
 			}
 			catch (Exception ex)

@@ -3,6 +3,7 @@ using Microsoft.IdentityModel.Tokens;
 using RationMakerWebApi.DataLayer.DTO;
 using RationMakerWebApi.DataLayer.Interfaces;
 using RationMakerWebApi.DataLayer.Models;
+using System.Diagnostics;
 
 namespace RationMakerWebApi.Controllers
 {
@@ -57,10 +58,10 @@ namespace RationMakerWebApi.Controllers
 				: StatusCode(StatusCodes.Status201Created, dbDailyMealPlan);
 		}
 
-		[HttpPost("update/{id:int}")]
+		[HttpPut("update/{id:int}")]
 		public async Task<IActionResult> UpdateDailyMealPlan(int id, DailyMealPlan dailyMealPlanDto)
 		{
-			if (id != dailyMealPlanDto.Id) return BadRequest();
+			if (id != dailyMealPlanDto.Id) return BadRequest(dailyMealPlanDto);
 
 			var dbDailyMealPlan = await _dailyMealPlanService.UpdateDailyMealPlanAsync(dailyMealPlanDto);
 

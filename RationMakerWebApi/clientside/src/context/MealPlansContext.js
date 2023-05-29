@@ -1,11 +1,10 @@
 // @ts-nocheck
 import { useContext, createContext, useReducer, useEffect } from "react";
-import useAuth from "./useAuth";
-import { useApiCallOnMount } from "./useApiCallOnMount";
-import { getPlans } from "./ApiCalls";
+import useAuth from "../service/useAuth";
+import { useApiCallOnMount } from "../service/useApiCallOnMount";
+import { getPlans } from "../service/ApiCalls";
 import { Outlet } from "react-router-dom";
-import ApiStateHandler from "./ApiStateHandler";
-import { submitForm } from "../components/modals/ModalDelete";
+import ApiStateHandler from "../service/ApiStateHandler";
 
 const MealPlansContext = createContext(null);
 
@@ -25,16 +24,6 @@ export function MealPlansProvider() {
   useEffect(() => {
     dispatch({ type: "SET_MEALPLANS", initialPlans: mealPlans });
   }, [mealPlans]);
-
-  // async function refresh() {
-  //   try {
-  //     const response = await submitForm(getPlans, userContext.auth.email);
-  //     dispatch({ type: "SET_MEALPLANS", initialPlans: mealPlans });
-  //     console.log(response);
-  //   } catch (err) {
-  //     console.log(err);
-  //   }
-  // }
 
   return (
     <ApiStateHandler loading={loadingPlans} error={errorPlans}>
@@ -64,17 +53,21 @@ function mealPlansReducer(state, action) {
       };
     }
     case "ADD_MEALPLAN": {
+      const existPlan = state.mealPlans.find((x) => x.id === action.payload.id);
+      if (existPlan) {
+        return { ...state };
+      }
       return {
         ...state,
-        mealPlans: [...state.mealPlans, action.item],
+        mealPlans: [...state.mealPlans, action.payload],
       };
     }
     case "UPDATE_MEALPLAN": {
       return {
         ...state,
         mealPlans: state.mealPlans.map((mealPlan) => {
-          if (mealPlan.id === action.item.id) {
-            return { ...mealPlan, mealPlan: action.item };
+          if (mealPlan.id === action.payload.id) {
+            return { ...mealPlan, mealPlan: action.payload };
           }
           return mealPlan;
         }),
@@ -84,7 +77,7 @@ function mealPlansReducer(state, action) {
       return {
         ...state,
         mealPlans: state.mealPlans.filter(
-          (mealPlan) => mealPlan.id !== action.id
+          (mealPlan) => mealPlan.id !== action.payload.id
         ),
       };
     }
@@ -92,11 +85,10 @@ function mealPlansReducer(state, action) {
       return {
         ...state,
         mealPlans: state.mealPlans.map((mealPlan) => {
-          if (mealPlan.id.toString() === action.dailyMealPlanId) {
-            console.log("here");
+          if (mealPlan.id === action.payload.dailyMealPlanId) {
             return {
               ...mealPlan,
-              mealTimes: [...mealPlan.mealTimes, action.mealTime],
+              mealTimes: [...mealPlan.mealTimes, action.payload.mealTime],
             };
           }
           return mealPlan;
@@ -107,14 +99,36 @@ function mealPlansReducer(state, action) {
       return {
         ...state,
         mealPlans: state.mealPlans.map((mealPlan) => {
-          if (mealPlan.id === action.item.dailyMealPlanId) {
+          if (mealPlan.id === action.payload.dailyMealPlanId) {
             return {
               ...mealPlan,
               mealTimes: mealPlan.mealTimes.map((mealTime) => {
-                if (mealTime.id === action.item.id) {
+                if (mealTime.id === action.payload.id) {
                   return {
                     ...mealTime,
-                    mealTime: action.time,
+                    name: action.payload.name,
+                  };
+                }
+                return mealTime;
+              }),
+            };
+          }
+          return mealPlan;
+        }),
+      };
+    }
+    case "REMOVE_PRODUCT": {
+      return {
+        ...state,
+        mealPlans: state.mealPlans.map((mealPlan) => {
+          if (mealPlan.id === action.payload.dailyMealPlanId) {
+            return {
+              ...mealPlan,
+              mealTimes: mealPlan.mealTimes.map((mealTime) => {
+                if (mealTime.id === action.payload.id) {
+                  return {
+                    ...mealTime,
+                    meal: action.payload.meal,
                   };
                 }
                 return mealTime;

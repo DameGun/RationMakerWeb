@@ -52,16 +52,45 @@ namespace RationMakerWebApi.Controllers
 				: StatusCode(StatusCodes.Status201Created, dbMealTime);
 		}
 		
-		[HttpPost("update/{id:int}")]
-		public async Task<IActionResult> UpdateMealTime(int id, MealTime mealTime)
+		[HttpPost("update")]
+		public async Task<IActionResult> UpdateMealTime(int id, string opType, MealTime mealTime)
 		{
 			if (id != mealTime.Id) return BadRequest();
 
-			var dbMealTime = await _mealTimeService.UpdateMealTimeAsync(mealTime);
+			MealTime? updatedMealTime = new MealTime();
+			updatedMealTime = opType switch {
+				"updateName" => await _mealTimeService.UpdateMealTimeAsync(mealTime),
+				"removeProduct" => await _mealTimeService.RemoveProductAsync(mealTime),
+				_ => null
+			};
 
-			return dbMealTime == null
-				? StatusCode(StatusCodes.Status500InternalServerError, $"{dbMealTime.Name} could not be updated.")
-				: StatusCode(StatusCodes.Status200OK, dbMealTime);
+			//if(product != null) updatedMealTime = await _mealTimeService.UpdateMealTimeAsync(mealTime.Id, product);
+			//else updatedMealTime = await _mealTimeService.UpdateMealTimeAsync(mealTime);
+
+			//MealTime? updatedMealTime = new MealTime();
+
+			//if(products != null)
+			//{
+			//	var deleted = await _mealTimeService.DeleteMealTimeAsync(dbMealTime);
+			//	if (deleted.Item1)
+			//	{
+			//		var mealTimeBuff = new MealTime
+			//		{
+			//			Name = mealTime.Name,
+			//			Meal = mealTime.Meal,
+			//			DailyMealPlanId = mealTime.DailyMealPlanId
+			//		};
+			//		updatedMealTime = await _mealTimeService.AddMealTimeAsync(mealTimeBuff);
+			//	}
+			//}
+			//else
+			//{
+			//	updatedMealTime = await _mealTimeService.UpdateMealTimeAsync(mealTime);
+			//}
+
+			return updatedMealTime == null
+				? StatusCode(StatusCodes.Status500InternalServerError, $"{mealTime.Name} could not be updated.")
+				: StatusCode(StatusCodes.Status200OK, updatedMealTime);
 		}
 
 		[HttpDelete("delete/{id:int}")]
@@ -98,6 +127,5 @@ namespace RationMakerWebApi.Controllers
 				? StatusCode(StatusCodes.Status500InternalServerError)
 				: StatusCode(StatusCodes.Status200OK, updatedMealTime);
 		}
-
 	}
 }

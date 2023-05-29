@@ -9,9 +9,6 @@ public class Product
     public double Fats { get; set; }
     public double Carbs { get; set; }
     public double Calories { get; set; }
-
     public Category? Category { get; set; }
     public int CategoryId { get; set; }
-
-    public List<MealTime>? Meals { get; set; }
 }
